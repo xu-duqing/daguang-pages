@@ -13,6 +13,7 @@ jobs:
         with:
           node-version: 14
           registry-url: https://registry.npmjs.org/
+      - run: npm i
       - run: npm run docs:build
       - run: rm ./node_modules
       - run: npm i --production
