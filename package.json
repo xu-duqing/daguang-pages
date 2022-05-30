@@ -9,7 +9,7 @@
     "docs:dev": "vuepress dev src"
   },
   "dependencies": {
-    "@webserverless/fc-express": "^0.1.4",
+    "@serverless-devs/fc-http": "^1.0.1",
     "koa": "^2.13.0",
     "koa-route": "^3.2.0",
     "koa-static": "^5.0.0"
